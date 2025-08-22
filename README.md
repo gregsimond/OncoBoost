@@ -21,6 +21,7 @@ For censoring date, take minimum(death, loss to follow up, maximum[regisry censo
     - 50 bootstrap samples to capture population variability and derive 95% CIs
     - each with 5 randomy initialised models to account for XGBoost stochasticity
 3. Cox model with established + novel risk predictors. 
+- ⚡ Parallelised to run models across multiple GPUs 
 
 <img src="figures/Pipeline.jpg" width="800"/>
 
